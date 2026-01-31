@@ -1,0 +1,51 @@
+# Build results
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/AnyCPU/
+**/build/
+**/publish/
+
+# VS / Rider / IDE
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results & coverage
+TestResults/
+**/TestResults/
+**/*.trx
+**/*.coverage
+**/*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# App configuration (local/dev overrides)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Publish profiles
+**/Properties/PublishProfiles/
+**/Properties/PublishProfiles/*.pubxml
+
+# Misc
+*.swp
+*.tmp
