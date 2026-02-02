@@ -3,5 +3,5 @@
 
 public interface IHasCreatedTime
 {
-    DateTime CreatedAt { get; }
+    public DateTime CreatedAt { get;}
 }
