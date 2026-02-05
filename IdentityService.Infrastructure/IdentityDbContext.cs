@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IdentityService.Infrastructure;
 
-public class IdentityDbContext:IdentityDbContext<User, Role, string>
+public class IdentityDbContext : IdentityDbContext<User, Role, string>
 {
     public IdentityDbContext(DbContextOptions<IdentityDbContext> options) : base(options)
     {
